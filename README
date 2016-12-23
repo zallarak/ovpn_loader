@@ -1,9 +1,6 @@
 usage:
-
-```
 python3 connect.py <user> <absolute path to ovpn file>
-```
 
-IMPORTANT: make sure you added the following line to your ovpn file:
+add the following line to your ovpn file:
 auth-user-pass <absolute path to directory containing ovpn file>/creds.txt
 
